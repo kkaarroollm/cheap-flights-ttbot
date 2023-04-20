@@ -1,6 +1,8 @@
 import json
+import sys
 
 from selenium import webdriver
+from selenium.common import NoSuchElementException
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
@@ -13,7 +15,11 @@ driver = webdriver.Chrome(PATH)
 action = ActionChains(driver)
 action.move_by_offset(5, 5)
 driver.maximize_window()
-driver.get('https://www.kayak.com/explore/WAW-anywhere?tripdurationrange=1,10')
+
+Warsaw = 'WAW'
+Cracow = 'KRK'
+
+driver.get(f'https://www.kayak.com/explore/{Cracow}-anywhere?tripdurationrange=1,10')
 
 
 change_map_size = driver.find_element(By.XPATH, "//button[contains(@id, 'zoomControl-minusButton')]")
@@ -33,8 +39,9 @@ sleep(2)
 destinations = driver.find_elements(By.XPATH, "//div[contains(@id,'destinations')]//button")
 
 flight_list = []
+counter = 0
 
-for button in destinations[:2]:
+for button in destinations:
     flight_data = {}
     action.click(button).perform()
 
@@ -50,45 +57,49 @@ for button in destinations[:2]:
 
     current_window_handle = driver.current_window_handle
 
-    # switch window to the new
     for window_handle in driver.window_handles:
         if window_handle != current_window_handle:
             driver.switch_to.window(window_handle)
 
-    wait_for_loaded_page = WebDriverWait(driver, 120)
-    wait_for_loaded_page.until(
-        EC.visibility_of_element_located(
-            (By.XPATH,
-             "//div[contains(@id, 'advice') and (contains(text(), '¯\_(ツ)_/¯') or contains(text(), 'Buy now'))]")
+    # switch window to the new
+    try:
+        element = driver.find_element(By.XPATH,
+                                      "//h2[contains(text(), 'Security Check:')]")
+        sys.exit()  # quit if element is found
+    except NoSuchElementException:
+        wait_for_loaded_page = WebDriverWait(driver, 120)
+        wait_for_loaded_page.until(
+            EC.visibility_of_element_located(
+                (By.XPATH,
+                 "//div[contains(@id, 'advice') and (contains(text(), '¯\_(ツ)_/¯') or contains(text(), 'Buy now'))]")
+            )
         )
-    )
 
-    wrapper_elements = wait_for_loaded_page.until(EC.visibility_of_all_elements_located(
-        (By.XPATH, "//div[contains(@class, 'resultsContainer')]//div[contains(@class, 'wrapper')]")))
+        wrapper_elements = wait_for_loaded_page.until(EC.visibility_of_all_elements_located(
+            (By.XPATH, "//div[contains(@class, 'resultsContainer')]//div[contains(@class, 'wrapper')]")))
 
-    cheapest_element = None
-    for wrapper in wrapper_elements:
-        if 'Cheapest' in wrapper.text:
-            cheapest_element = wrapper.find_element(By.XPATH, ".//*[text()='Cheapest']")
-            flight_data['price'] = wrapper.find_element(By.XPATH, ".//*[contains(@class, 'price-section')]//a").text
-            break
+        cheapest_element = None
+        for wrapper in wrapper_elements:
+            try:
+                if 'Cheapest' in wrapper.text:
+                    cheapest_element = wrapper.find_element(By.XPATH, ".//*[text()='Cheapest']")
+                    flight_data['price'] = wrapper.find_element(By.XPATH, ".//*[contains(@class, 'price-section')]//a").text
+                    break
+            except NoSuchElementException:
+                pass
 
-    if cheapest_element is not None:
-        cheapest_element = wait_for_loaded_page.until(EC.visibility_of(cheapest_element))
-
-    flight_list.append(flight_data)
-
-    driver.close()
-
-    driver.switch_to.window(current_window_handle)
+        flight_list.append(flight_data)
+        driver.close()
+        driver.switch_to.window(current_window_handle)
     close_button = WebDriverWait(driver, 10).until(EC.visibility_of_element_located(
         (By.XPATH, "//button[contains(@data-type-id, 'Anywhere')]")))
     close_button.click()
+    counter += 1
 
 flight_dict = {"flights": flight_list}
-with open('flight_data.json', 'w') as f:
+with open(f'flight_{Cracow}.json', 'w') as f:
     json.dump(flight_dict, f, indent=2)
 
 driver.quit()
-
+print(counter)
 
