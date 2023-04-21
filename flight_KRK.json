@@ -1,0 +1,268 @@
+{
+  "flights": [
+    {
+      "cities": "KRK - OSL",
+      "dates": "Fri, May 5 - Tue, May 9",
+      "link": "https://www.kayak.com/flights/KRK-OSL/2023-05-05/2023-05-09/",
+      "price": "$28"
+    },
+    {
+      "cities": "KRK - VIE",
+      "dates": "Tue, May 16 - Tue, May 23",
+      "link": "https://www.kayak.com/flights/KRK-VIE/2023-05-16/2023-05-23/",
+      "price": "$33"
+    },
+    {
+      "cities": "KRK - MIL",
+      "dates": "Wed, May 31 - Tue, Jun 6",
+      "link": "https://www.kayak.com/flights/KRK-MIL/2023-05-31/2023-06-06/",
+      "price": "$57"
+    },
+    {
+      "cities": "KRK - LON",
+      "dates": "Thu, Jun 22 - Sun, Jun 25",
+      "link": "https://www.kayak.com/flights/KRK-LON/2023-06-22/2023-06-25/",
+      "price": "$54"
+    },
+    {
+      "cities": "KRK - BRU",
+      "dates": "Wed, May 24 - Tue, May 30",
+      "link": "https://www.kayak.com/flights/KRK-BRU/2023-05-24/2023-05-30/",
+      "price": "$56"
+    },
+    {
+      "cities": "KRK - CPH",
+      "dates": "Wed, May 10 - Mon, May 15",
+      "link": "https://www.kayak.com/flights/KRK-CPH/2023-05-10/2023-05-15/",
+      "price": "$80"
+    },
+    {
+      "cities": "KRK - BER",
+      "dates": "Wed, Aug 30 - Sat, Sep 2",
+      "link": "https://www.kayak.com/flights/KRK-BER/2023-08-30/2023-09-02/",
+      "price": "$76"
+    },
+    {
+      "cities": "KRK - CTA",
+      "dates": "Mon, Jan 8 - Fri, Jan 12",
+      "link": "https://www.kayak.com/flights/KRK-CTA/2024-01-08/2024-01-12/",
+      "price": "$78"
+    },
+    {
+      "cities": "KRK - ROM",
+      "dates": "Sat, Jun 10 - Thu, Jun 15",
+      "link": "https://www.kayak.com/flights/KRK-ROM/2023-06-10/2023-06-15/",
+      "price": "$96"
+    },
+    {
+      "cities": "KRK - PAR",
+      "dates": "Mon, Oct 9 - Sun, Oct 15",
+      "link": "https://www.kayak.com/flights/KRK-PAR/2023-10-09/2023-10-15/",
+      "price": "$91"
+    },
+    {
+      "cities": "KRK - BCN",
+      "dates": "Wed, Jan 10 - Wed, Jan 17",
+      "link": "https://www.kayak.com/flights/KRK-BCN/2024-01-10/2024-01-17/",
+      "price": "$86"
+    },
+    {
+      "cities": "KRK - ATH",
+      "dates": "Tue, May 16 - Tue, May 23",
+      "link": "https://www.kayak.com/flights/KRK-ATH/2023-05-16/2023-05-23/",
+      "price": "$93"
+    },
+    {
+      "cities": "KRK - HER",
+      "dates": "Mon, May 29 - Mon, Jun 5",
+      "link": "https://www.kayak.com/flights/KRK-HER/2023-05-29/2023-06-05/",
+      "price": "$151"
+    },
+    {
+      "cities": "KRK - IBZ",
+      "dates": "Wed, May 3 - Wed, May 10",
+      "link": "https://www.kayak.com/flights/KRK-IBZ/2023-05-03/2023-05-10/",
+      "price": "$131"
+    },
+    {
+      "cities": "KRK - IST",
+      "dates": "Sat, Nov 18 - Sat, Nov 25",
+      "link": "https://www.kayak.com/flights/KRK-IST/2023-11-18/2023-11-25/",
+      "price": "$161"
+    },
+    {
+      "cities": "KRK - SVQ",
+      "dates": "Tue, May 23 - Fri, May 26",
+      "link": "https://www.kayak.com/flights/KRK-SVQ/2023-05-23/2023-05-26/",
+      "price": "$171"
+    },
+    {
+      "cities": "KRK - AMS",
+      "dates": "Wed, May 31 - Tue, Jun 6",
+      "link": "https://www.kayak.com/flights/KRK-AMS/2023-05-31/2023-06-06/",
+      "price": "$173"
+    },
+    {
+      "cities": "KRK - AYT",
+      "dates": "Sat, May 6 - Wed, May 10",
+      "link": "https://www.kayak.com/flights/KRK-AYT/2023-05-06/2023-05-10/",
+      "price": "$188"
+    },
+    {
+      "cities": "KRK - MUC",
+      "dates": "Wed, May 31 - Tue, Jun 6",
+      "link": "https://www.kayak.com/flights/KRK-MUC/2023-05-31/2023-06-06/",
+      "price": "$191"
+    },
+    {
+      "cities": "KRK - RAK",
+      "dates": "Mon, Jun 12 - Thu, Jun 15",
+      "link": "https://www.kayak.com/flights/KRK-RAK/2023-06-12/2023-06-15/",
+      "price": "$208"
+    },
+    {
+      "cities": "KRK - DMM",
+      "dates": "Sat, May 6 - Sat, May 13",
+      "link": "https://www.kayak.com/flights/KRK-DMM/2023-05-06/2023-05-13/",
+      "price": "$149"
+    },
+    {
+      "cities": "KRK - AUH",
+      "dates": "Mon, May 29 - Mon, Jun 5",
+      "link": "https://www.kayak.com/flights/KRK-AUH/2023-05-29/2023-06-05/",
+      "price": "$229"
+    },
+    {
+      "cities": "KRK - EVN",
+      "dates": "Mon, Nov 6 - Sun, Nov 12",
+      "link": "https://www.kayak.com/flights/KRK-EVN/2023-11-06/2023-11-12/",
+      "price": "$241"
+    },
+    {
+      "cities": "KRK - JED",
+      "dates": "Fri, Jun 2 - Tue, Jun 6",
+      "link": "https://www.kayak.com/flights/KRK-JED/2023-06-02/2023-06-06/",
+      "price": "$243"
+    },
+    {
+      "cities": "KRK - KUT",
+      "dates": "Tue, May 30 - Thu, Jun 1",
+      "link": "https://www.kayak.com/flights/KRK-KUT/2023-05-30/2023-06-01/",
+      "price": "$105"
+    },
+    {
+      "cities": "KRK - MAD",
+      "dates": "Tue, Jun 6 - Tue, Jun 13",
+      "link": "https://www.kayak.com/flights/KRK-MAD/2023-06-06/2023-06-13/",
+      "price": "$112"
+    },
+    {
+      "cities": "KRK - TLV",
+      "dates": "Wed, Jun 14 - Wed, Jun 21",
+      "link": "https://www.kayak.com/flights/KRK-TLV/2023-06-14/2023-06-21/",
+      "price": "$114"
+    },
+    {
+      "cities": "KRK - PMI",
+      "dates": "Wed, May 31 - Wed, Jun 7",
+      "link": "https://www.kayak.com/flights/KRK-PMI/2023-05-31/2023-06-07/",
+      "price": "$120"
+    },
+    {
+      "cities": "KRK - MLA",
+      "dates": "Wed, Jun 14 - Wed, Jun 21",
+      "link": "https://www.kayak.com/flights/KRK-MLA/2023-06-14/2023-06-21/",
+      "price": "$119"
+    },
+    {
+      "cities": "KRK - ALC",
+      "dates": "Tue, May 30 - Tue, Jun 6",
+      "link": "https://www.kayak.com/flights/KRK-ALC/2023-05-30/2023-06-06/",
+      "price": "$122"
+    },
+    {
+      "cities": "KRK - VLC",
+      "dates": "Tue, Jun 6 - Tue, Jun 13",
+      "link": "https://www.kayak.com/flights/KRK-VLC/2023-06-06/2023-06-13/",
+      "price": "$123"
+    },
+    {
+      "cities": "KRK - AGP",
+      "dates": "Wed, May 10 - Wed, May 17",
+      "link": "https://www.kayak.com/flights/KRK-AGP/2023-05-10/2023-05-17/",
+      "price": "$146"
+    },
+    {
+      "cities": "KRK - PMO",
+      "dates": "Sat, Jun 17 - Thu, Jun 22",
+      "link": "https://www.kayak.com/flights/KRK-PMO/2023-06-17/2023-06-22/",
+      "price": "$128"
+    },
+    {
+      "cities": "KRK - FRA",
+      "dates": "Tue, May 9 - Thu, May 11",
+      "link": "https://www.kayak.com/flights/KRK-FRA/2023-05-09/2023-05-11/",
+      "price": "$142"
+    },
+    {
+      "cities": "KRK - FAO",
+      "dates": "Mon, Jun 19 - Fri, Jun 23",
+      "link": "https://www.kayak.com/flights/KRK-FAO/2023-06-19/2023-06-23/",
+      "price": "$148"
+    },
+    {
+      "cities": "KRK - LIS",
+      "dates": "Wed, Jun 14 - Tue, Jun 20",
+      "link": "https://www.kayak.com/flights/KRK-LIS/2023-06-14/2023-06-20/",
+      "price": "$149"
+    },
+    {
+      "cities": "KRK - RUH",
+      "dates": "Sat, May 6 - Sat, May 13",
+      "link": "https://www.kayak.com/flights/KRK-RUH/2023-05-06/2023-05-13/",
+      "price": "$179"
+    },
+    {
+      "cities": "KRK - MCT",
+      "dates": "Fri, Jun 16 - Wed, Jun 21",
+      "link": "https://www.kayak.com/flights/KRK-MCT/2023-06-16/2023-06-21/",
+      "price": "$314"
+    },
+    {
+      "cities": "KRK - TBS",
+      "dates": "Mon, Jul 10 - Thu, Jul 13",
+      "link": "https://www.kayak.com/flights/KRK-TBS/2023-07-10/2023-07-13/",
+      "price": "$340"
+    },
+    {
+      "cities": "KRK - CAI",
+      "dates": "Mon, May 15 - Sat, May 20",
+      "link": "https://www.kayak.com/flights/KRK-CAI/2023-05-15/2023-05-20/",
+      "price": "$383"
+    },
+    {
+      "cities": "KRK - GYD",
+      "dates": "Thu, May 18 - Sat, May 20",
+      "link": "https://www.kayak.com/flights/KRK-GYD/2023-05-18/2023-05-20/",
+      "price": "$348"
+    },
+    {
+      "cities": "KRK - SZF",
+      "dates": "Sun, Jun 11 - Sat, Jun 17",
+      "link": "https://www.kayak.com/flights/KRK-SZF/2023-06-11/2023-06-17/",
+      "price": "$367"
+    },
+    {
+      "cities": "KRK - DXB",
+      "dates": "Fri, Jul 7 - Mon, Jul 10",
+      "link": "https://www.kayak.com/flights/KRK-DXB/2023-07-07/2023-07-10/",
+      "price": "$406"
+    },
+    {
+      "cities": "KRK - BUS",
+      "dates": "Thu, May 11 - Tue, May 16",
+      "link": "https://www.kayak.com/flights/KRK-BUS/2023-05-11/2023-05-16/",
+      "price": "$505"
+    }
+  ]
+}
