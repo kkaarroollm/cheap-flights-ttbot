@@ -1,5 +1,4 @@
 import json
-import sys
 
 from selenium import webdriver
 from selenium.common import NoSuchElementException
@@ -45,6 +44,7 @@ for button in destinations:
     flight_data = {}
     action.click(button).perform()
 
+
     wait_for_div = WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.XPATH, "//div[contains(@class,'Explore-DestinationDetailsDrawerSection')]")))
 
     wait_for_info_btn = WebDriverWait(driver, 10)
@@ -52,7 +52,7 @@ for button in destinations:
         (By.XPATH, "//a[contains(@class, 'explore-clickout-button')]")))
     flight_data['cities'] = driver.find_element(By.CLASS_NAME, 'clickout-box-title').text
     flight_data['dates'] = driver.find_element(By.CLASS_NAME, 'clickout-box-subtitle').text
-    info_btn.click()
+    action.click(info_btn).perform()
     flight_data['link'] = info_btn.get_attribute('href')
 
     current_window_handle = driver.current_window_handle
@@ -65,7 +65,10 @@ for button in destinations:
     try:
         element = driver.find_element(By.XPATH,
                                       "//h2[contains(text(), 'Security Check:')]")
-        sys.exit()  # quit if element is found
+
+        print('print human')
+        driver.close()
+        break
     except NoSuchElementException:
         wait_for_loaded_page = WebDriverWait(driver, 120)
         wait_for_loaded_page.until(

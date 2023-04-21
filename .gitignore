@@ -1,6 +1,5 @@
 .idea/
 .venv
-flight_data.json
 chromedriver
-test.py
+
 

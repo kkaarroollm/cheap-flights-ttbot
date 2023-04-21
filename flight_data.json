@@ -1,0 +1,310 @@
+{
+  "flights": [
+    {
+      "cities": "WAW - GOT",
+      "dates": "Sat, Jun 10 - Tue, Jun 13",
+      "link": "https://www.kayak.com/flights/WAW-GOT/2023-06-10/2023-06-13/",
+      "price": "$22"
+    },
+    {
+      "cities": "WAW - STO",
+      "dates": "Sat, Jun 3 - Thu, Jun 8",
+      "link": "https://www.kayak.com/flights/WAW-STO/2023-06-03/2023-06-08/",
+      "price": "$23"
+    },
+    {
+      "cities": "WAW - MMA",
+      "dates": "Sat, Jun 17 - Tue, Jun 20",
+      "link": "https://www.kayak.com/flights/WAW-MMA/2023-06-17/2023-06-20/",
+      "price": "$33"
+    },
+    {
+      "cities": "WAW - KTW",
+      "dates": "Wed, May 24 - Fri, Jun 2",
+      "link": "https://www.kayak.com/flights/WAW-KTW/2023-05-24/2023-06-02/",
+      "price": "$45"
+    },
+    {
+      "cities": "WAW - WRO",
+      "dates": "Tue, May 23 - Thu, Jun 1",
+      "link": "https://www.kayak.com/flights/WAW-WRO/2023-05-23/2023-06-01/",
+      "price": "$56"
+    },
+    {
+      "cities": "WAW - POZ",
+      "dates": "Sat, May 20 - Sat, May 27",
+      "link": "https://www.kayak.com/flights/WAW-POZ/2023-05-20/2023-05-27/",
+      "price": "$56"
+    },
+    {
+      "cities": "WAW - GDN",
+      "dates": "Sat, May 20 - Sat, May 27",
+      "link": "https://www.kayak.com/flights/WAW-GDN/2023-05-20/2023-05-27/",
+      "price": "$57"
+    },
+    {
+      "cities": "WAW - KRK",
+      "dates": "Tue, May 23 - Thu, Jun 1",
+      "link": "https://www.kayak.com/flights/WAW-KRK/2023-05-23/2023-06-01/",
+      "price": "$64"
+    },
+    {
+      "cities": "WAW - NAP",
+      "dates": "Sun, Jan 7 - Wed, Jan 10",
+      "link": "https://www.kayak.com/flights/WAW-NAP/2024-01-07/2024-01-10/",
+      "price": "$70"
+    },
+    {
+      "cities": "WAW - CPH",
+      "dates": "Mon, Oct 16 - Wed, Oct 18",
+      "link": "https://www.kayak.com/flights/WAW-CPH/2023-10-16/2023-10-18/",
+      "price": "$73"
+    },
+    {
+      "cities": "WAW - BRI",
+      "dates": "Mon, Nov 20 - Wed, Nov 29",
+      "link": "https://www.kayak.com/flights/WAW-BRI/2023-11-20/2023-11-29/",
+      "price": "$87"
+    },
+    {
+      "cities": "WAW - EIN",
+      "dates": "Sat, Jul 1 - Tue, Jul 4",
+      "link": "https://www.kayak.com/flights/WAW-EIN/2023-07-01/2023-07-04/",
+      "price": "$69"
+    },
+    {
+      "cities": "WAW - AES",
+      "dates": "Mon, Jun 5 - Fri, Jun 9",
+      "link": "https://www.kayak.com/flights/WAW-AES/2023-06-05/2023-06-09/",
+      "price": "$189"
+    },
+    {
+      "cities": "WAW - TIV",
+      "dates": "Sat, Jun 17 - Wed, Jun 21",
+      "link": "https://www.kayak.com/flights/WAW-TIV/2023-06-17/2023-06-21/",
+      "price": "$162"
+    },
+    {
+      "cities": "WAW - EAP",
+      "dates": "Fri, May 12 - Fri, May 19",
+      "link": "https://www.kayak.com/flights/WAW-EAP/2023-05-12/2023-05-19/",
+      "price": "$151"
+    },
+    {
+      "cities": "WAW - JTR",
+      "dates": "Fri, Jun 9 - Mon, Jun 12",
+      "link": "https://www.kayak.com/flights/WAW-JTR/2023-06-09/2023-06-12/",
+      "price": "$167"
+    },
+    {
+      "cities": "WAW - BEG",
+      "dates": "Sat, Jun 10 - Tue, Jun 13",
+      "link": "https://www.kayak.com/flights/WAW-BEG/2023-06-10/2023-06-13/",
+      "price": "$173"
+    },
+    {
+      "cities": "WAW - IST",
+      "dates": "Sat, Dec 16 - Tue, Dec 19",
+      "link": "https://www.kayak.com/flights/WAW-IST/2023-12-16/2023-12-19/",
+      "price": "$180"
+    },
+    {
+      "cities": "WAW - CDT",
+      "dates": "Thu, Jun 15 - Tue, Jun 20",
+      "link": "https://www.kayak.com/flights/WAW-CDT/2023-06-15/2023-06-20/",
+      "price": "$194"
+    },
+    {
+      "cities": "WAW - GVA",
+      "dates": "Thu, Jun 1 - Thu, Jun 8",
+      "link": "https://www.kayak.com/flights/WAW-GVA/2023-06-01/2023-06-08/",
+      "price": "$162"
+    },
+    {
+      "cities": "WAW - BIO",
+      "dates": "Mon, Apr 24 - Mon, May 1",
+      "link": "https://www.kayak.com/flights/WAW-BIO/2023-04-24/2023-05-01/",
+      "price": "$179"
+    },
+    {
+      "cities": "WAW - FLR",
+      "dates": "Fri, Oct 20 - Wed, Oct 25",
+      "link": "https://www.kayak.com/flights/WAW-FLR/2023-10-20/2023-10-25/",
+      "price": "$184"
+    },
+    {
+      "cities": "WAW - VAR",
+      "dates": "Thu, Jun 1 - Mon, Jun 5",
+      "link": "https://www.kayak.com/flights/WAW-VAR/2023-06-01/2023-06-05/",
+      "price": "$163"
+    },
+    {
+      "cities": "WAW - MUC",
+      "dates": "Wed, Apr 26 - Sun, Apr 30",
+      "link": "https://www.kayak.com/flights/WAW-MUC/2023-04-26/2023-04-30/",
+      "price": "$132"
+    },
+    {
+      "cities": "WAW - LYS",
+      "dates": "Sat, May 6 - Tue, May 9",
+      "link": "https://www.kayak.com/flights/WAW-LYS/2023-05-06/2023-05-09/",
+      "price": "$215"
+    },
+    {
+      "cities": "WAW - AYT",
+      "dates": "Wed, May 10 - Wed, May 17",
+      "link": "https://www.kayak.com/flights/WAW-AYT/2023-05-10/2023-05-17/",
+      "price": "$209"
+    },
+    {
+      "cities": "WAW - NTE",
+      "dates": "Mon, Oct 30 - Mon, Nov 6",
+      "link": "https://www.kayak.com/flights/WAW-NTE/2023-10-30/2023-11-06/",
+      "price": "$214"
+    },
+    {
+      "cities": "WAW - KRS",
+      "dates": "Thu, May 18 - Thu, May 25",
+      "link": "https://www.kayak.com/flights/WAW-KRS/2023-05-18/2023-05-25/",
+      "price": "$198"
+    },
+    {
+      "cities": "WAW - NUE",
+      "dates": "Wed, Jun 21 - Wed, Jun 28",
+      "link": "https://www.kayak.com/flights/WAW-NUE/2023-06-21/2023-06-28/",
+      "price": "$120"
+    },
+    {
+      "cities": "WAW - TRD",
+      "dates": "Tue, May 9 - Thu, May 11",
+      "link": "https://www.kayak.com/flights/WAW-TRD/2023-05-09/2023-05-11/",
+      "price": "$213"
+    },
+    {
+      "cities": "WAW - STR",
+      "dates": "Tue, May 9 - Fri, May 12",
+      "link": "https://www.kayak.com/flights/WAW-STR/2023-05-09/2023-05-12/",
+      "price": "$209"
+    },
+    {
+      "cities": "WAW - BGO",
+      "dates": "Fri, Oct 13 - Sun, Oct 15",
+      "link": "https://www.kayak.com/flights/WAW-BGO/2023-10-13/2023-10-15/",
+      "price": "$176"
+    },
+    {
+      "cities": "WAW - LDE",
+      "dates": "Wed, Jun 28 - Sun, Jul 2",
+      "link": "https://www.kayak.com/flights/WAW-LDE/2023-06-28/2023-07-02/",
+      "price": "$152"
+    },
+    {
+      "cities": "WAW - HAJ",
+      "dates": "Thu, Jun 15 - Fri, Jun 16",
+      "link": "https://www.kayak.com/flights/WAW-HAJ/2023-06-15/2023-06-16/",
+      "price": "$246"
+    },
+    {
+      "cities": "WAW - SVG",
+      "dates": "Fri, May 26 - Mon, May 29",
+      "link": "https://www.kayak.com/flights/WAW-SVG/2023-05-26/2023-05-29/",
+      "price": "$142"
+    },
+    {
+      "cities": "WAW - RNN",
+      "dates": "Wed, Sep 6 - Sun, Sep 10",
+      "link": "https://www.kayak.com/flights/WAW-RNN/2023-09-06/2023-09-10/",
+      "price": "$253"
+    },
+    {
+      "cities": "WAW - NCE",
+      "dates": "Sat, Dec 16 - Tue, Dec 19",
+      "link": "https://www.kayak.com/flights/WAW-NCE/2023-12-16/2023-12-19/",
+      "price": "$86"
+    },
+    {
+      "cities": "WAW - DTM",
+      "dates": "Tue, Jun 6 - Sat, Jun 10",
+      "link": "https://www.kayak.com/flights/WAW-DTM/2023-06-06/2023-06-10/",
+      "price": "$93"
+    },
+    {
+      "cities": "WAW - SPU",
+      "dates": "Sat, Jun 17 - Tue, Jun 20",
+      "link": "https://www.kayak.com/flights/WAW-SPU/2023-06-17/2023-06-20/",
+      "price": "$121"
+    },
+    {
+      "cities": "WAW - LHR",
+      "dates": "Fri, Dec 1 - Wed, Dec 6",
+      "link": "https://www.kayak.com/flights/WAW-LHR/2023-12-01/2023-12-06/",
+      "price": "$107"
+    },
+    {
+      "cities": "WAW - BER",
+      "dates": "Tue, May 30 - Wed, Jun 7",
+      "link": "https://www.kayak.com/flights/WAW-BER/2023-05-30/2023-06-07/",
+      "price": "$118"
+    },
+    {
+      "cities": "WAW - BLL",
+      "dates": "Sat, Jul 1 - Fri, Jul 7",
+      "link": "https://www.kayak.com/flights/WAW-BLL/2023-07-01/2023-07-07/",
+      "price": "$154"
+    },
+    {
+      "cities": "WAW - DBV",
+      "dates": "Tue, Jun 6 - Tue, Jun 13",
+      "link": "https://www.kayak.com/flights/WAW-DBV/2023-06-06/2023-06-13/",
+      "price": "$139"
+    },
+    {
+      "cities": "WAW - KUT",
+      "dates": "Thu, May 18 - Thu, May 25",
+      "link": "https://www.kayak.com/flights/WAW-KUT/2023-05-18/2023-05-25/",
+      "price": "$123"
+    },
+    {
+      "cities": "WAW - VRN",
+      "dates": "Sun, May 14 - Fri, May 19",
+      "link": "https://www.kayak.com/flights/WAW-VRN/2023-05-14/2023-05-19/",
+      "price": "$127"
+    },
+    {
+      "cities": "WAW - PDL",
+      "dates": "Wed, Feb 21 - Wed, Feb 28",
+      "link": "https://www.kayak.com/flights/WAW-PDL/2024-02-21/2024-02-28/",
+      "price": "$135"
+    },
+    {
+      "cities": "WAW - ABZ",
+      "dates": "Fri, May 19 - Mon, May 22",
+      "link": "https://www.kayak.com/flights/WAW-ABZ/2023-05-19/2023-05-22/",
+      "price": "$148"
+    },
+    {
+      "cities": "WAW - TGD",
+      "dates": "Tue, Aug 8 - Tue, Aug 15",
+      "link": "https://www.kayak.com/flights/WAW-TGD/2023-08-08/2023-08-15/",
+      "price": "$141"
+    },
+    {
+      "cities": "WAW - LIL",
+      "dates": "Fri, May 26 - Sat, May 27",
+      "link": "https://www.kayak.com/flights/WAW-LIL/2023-05-26/2023-05-27/",
+      "price": "$258"
+    },
+    {
+      "cities": "WAW - BRE",
+      "dates": "Mon, May 15 - Sun, May 21",
+      "link": "https://www.kayak.com/flights/WAW-BRE/2023-05-15/2023-05-21/",
+      "price": "$207"
+    },
+    {
+      "cities": "WAW - IZM",
+      "dates": "Sun, Jun 4 - Mon, Jun 12",
+      "link": "https://www.kayak.com/flights/WAW-IZM/2023-06-04/2023-06-12/",
+      "price": "$222"
+    }
+  ]
+}
