@@ -44,6 +44,7 @@ for button in destinations:
     flight_data = {}
     action.click(button).perform()
 
+
     wait_for_div = WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.XPATH, "//div[contains(@class,'Explore-DestinationDetailsDrawerSection')]")))
 
     wait_for_info_btn = WebDriverWait(driver, 10)
@@ -64,6 +65,7 @@ for button in destinations:
     try:
         element = driver.find_element(By.XPATH,
                                       "//h2[contains(text(), 'Security Check:')]")
+
         print('print human')
         driver.close()
         break
